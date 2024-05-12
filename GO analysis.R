@@ -28,7 +28,7 @@ library(AnnotationDbi)
 library(org.Hs.eg.db)
 
 
-setwd("/Users/adadeysm/Library/CloudStorage/OneDrive-NationalInstitutesofHealth/1.M.Hoa.Lab/2.Lab/6. O-link/Shoujun Results4/3. DESeq analysis")
+setwd("path")
 # load the deseq_results.csv data
 Data <- read.csv("data.csv", header = TRUE, sep = ",", row.names = 1)
 head(Data)[1-5, ]
